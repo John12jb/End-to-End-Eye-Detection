@@ -8,7 +8,6 @@ import numpy as np
 
 Box = Tuple[int, int, int, int]  # x, y, w, h
 
-
 @dataclass
 class DetectorConfig:
     face_scale_factor: float = 1.1
